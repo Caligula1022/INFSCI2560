@@ -1,0 +1,425 @@
+/* Header and Navigation ===================================================================== */
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+body {
+  color: #555;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background: url("https://cdn.glitch.global/d17b000a-ffac-4ef8-9eb3-c67973e04af4/background3.jpeg?v=1663722503379")
+    no-repeat center center;
+  background-size: cover;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffa515;
+}
+
+#header {
+  /* max-width:2000px; */
+  /* width: 1500px; */
+  width: auto;
+  min-width: 1090px;
+  background-color: #f5f824;
+  height: 150px;
+  line-height: 150px;
+  margin: 0;
+  padding: 0;
+}
+
+#header a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#header a:hover {
+  color: rgb(187, 34, 34);
+}
+
+#header-title {
+  display: block;
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  padding-right: 20px;
+}
+
+#header-nav {
+  display: block;
+  float: left;
+  /* margin-top: auto; */
+  margin-top: 0;
+  margin-left: 50px;
+}
+
+#header-nav a {
+  display: inline;
+  padding-left: 20px;
+}
+
+/* Home Page ===================================================================== */
+
+.home-container {
+  /* display: flex; */
+  width: 1000px;
+  height: 800px;
+  /* border: 20px solid green; */
+  margin: auto;
+  padding: 25px;
+  position: relative;
+}
+
+.trailer {
+  visibility: hidden;
+}
+
+.home-container .trailer {
+  /* display: flex; */
+  text-align: center;
+  /* background-color: lightgrey; */
+  width: 80%;
+  height: 70%;
+  /* height: 100%; */
+  /* border: 5px solid rgb(0, 0, 0); */
+  padding: 10%;
+  /* padding: 50px; */
+  margin: auto;
+  position: relative;
+}
+
+.home-container .trailer embed {
+  width: 90%;
+  /* width: 800px; */
+  /* height: 500px; */
+  height: 90%;
+  position: relative;
+  /* margin: auto; */
+  bottom: -30px;
+}
+
+.showtrailer {
+  text-align: center;
+}
+
+.showtrailer .cybr-btn {
+  bottom: 50px;
+}
+
+/* Story Page ===================================================================== */
+
+h1,
+h2,
+h3,
+h4 {
+  color: #333333;
+}
+
+#story-page {
+  display: block;
+  width: 1000px;
+  height: 800px;
+  /*     border: 20px solid green; */
+  margin: auto;
+  padding: 25px;
+  position: relative;
+}
+
+#story-page h1 {
+  font-family: BlenderProBold, sans-serif;
+  color: rgb(245, 245, 245);
+  font-size: 55px;
+  text-align: center;
+  text-shadow: 5px 5px 5px #16c716;
+  font-weight: 700;
+  letter-spacing: -0.0075em;
+  line-height: 48px;
+  position: relative;
+  top: 100px;
+  /*     padding: auto; */
+}
+
+.story-content {
+  display: block;
+  font-family: BlenderProBold, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  color: rgb(245, 245, 245);
+  text-shadow: 5px 5px 5px #16c716;
+  font-weight: 700;
+  letter-spacing: -0.0075em;
+  line-height: 48px;
+  position: relative;
+  bottom: -100px;
+  /* box-shadow: 10px 10px 5px #c9ee0e; */
+  /* background: #050505; */
+  /* background: linear-gradient(45deg, #f5f824 0, rgb(61, 10, 10) 50%, rgb(136, 135, 138) 50%); */
+  /* background: linear-gradient(45deg, #f5f824 0, rgb(148, 158, 10) 50%, rgb(210, 212, 80) 50%); */
+}
+
+/* Character Page ===================================================================== */
+
+#character-page {
+  display: block;
+  width: 1000px;
+  height: 800px;
+  /*     border: 20px solid green; */
+  margin: auto;
+  padding: 25px;
+  position: relative;
+}
+
+#character-table {
+  width: 80%;
+  height: 500px;
+  margin-top: 80px;
+  align-self: center;
+  left: 85px;
+  right: 85px;
+  position: relative;
+}
+
+#character-table #David {
+  width: 250px;
+  height: 300px;
+}
+
+#davidpic {
+  width: 250px;
+  height: 300px;
+}
+
+#character-table #Lucy {
+  width: 250px;
+  height: 300px;
+}
+
+#lucypic {
+  width: 250px;
+  height: 300px;
+}
+
+.name {
+  display: block;
+  font-family: BlenderProBold, sans-serif;
+  font-size: 25px;
+  color: rgb(245, 245, 245);
+  text-shadow: 5px 5px 5px #16c716;
+  font-weight: 700;
+  letter-spacing: -0.0075em;
+  position: relative;
+}
+
+.davidsecpara {
+  display: block;
+  font-family: BlenderProBold, sans-serif;
+  font-size: 18px;
+  color: rgb(245, 245, 245);
+  text-shadow: 5px 5px 5px #16c716;
+  font-weight: 700;
+  letter-spacing: -0.0075em;
+  position: relative;
+}
+
+/* Gallery Part ===================================================================== */
+
+#gallery-page {
+  display: block;
+  width: 1000px;
+  height: 800px;
+  /*     border: 20px solid green; */
+  margin: auto;
+  padding: 25px;
+  position: relative;
+}
+
+.responsive {
+  display: inline-block;
+  position: relative;
+}
+
+.responsive img {
+  /* display: inline-block; */
+  display: block;
+  width: 411px;
+  /* left: 200px; */
+  /* width: 330px; */
+  height: 220px;
+  position: relative;
+}
+
+.desc {
+  text-align: center;
+  display: block;
+  font-family: BlenderProBold, sans-serif;
+  font-size: 18px;
+  color: rgb(245, 245, 245);
+  text-shadow: 5px 5px 5px #16c716;
+  font-weight: 700;
+  letter-spacing: -0.0075em;
+  position: relative;
+}
+
+/* Preview Part ===================================================================== */
+
+.preview-container {
+  /* display: flex; */
+  width: 1000px;
+  height: 800px;
+  /* border: 20px solid green; */
+  margin: auto;
+  padding: 25px;
+  position: relative;
+}
+
+.op {
+  display: block;
+  /* visibility: hidden; */
+}
+
+.preview-container .op {
+  /* display: flex; */
+  text-align: center;
+  /* background-color: lightgrey; */
+  width: 80%;
+  height: 70%;
+  /* height: 100%; */
+  /* border: 5px solid rgb(0, 0, 0); */
+  padding: 10%;
+  /* padding: 50px; */
+  margin: auto;
+  position: relative;
+}
+
+.preview-container .op embed {
+  width: 90%;
+  /* width: 800px; */
+  /* height: 500px; */
+  height: 90%;
+  position: relative;
+  /* margin: auto; */
+  bottom: -30px;
+}
+
+.ed {
+  /* visibility: visible; */
+  display: none;
+}
+
+.preview-container .ed {
+  /* display: flex; */
+  text-align: center;
+  /* background-color: lightgrey; */
+  width: 80%;
+  height: 70%;
+  /* height: 100%; */
+  /* border: 5px solid rgb(0, 0, 0); */
+  padding: 10%;
+  /* padding: 50px; */
+  margin: auto;
+  position: relative;
+}
+
+.preview-container .ed embed {
+  width: 90%;
+  /* width: 800px; */
+  /* height: 500px; */
+  height: 90%;
+  position: relative;
+  /* margin: auto; */
+  bottom: -30px;
+}
+
+.change {
+  text-align: center;
+}
+
+.change #change-btn {
+  bottom: 50px;
+}
+
+/* Footer ===================================================================== */
+
+#footer {
+  /* background: #f5f824; */
+  padding: 20px 0;
+  width: auto;
+  min-width: 1090px;
+  background-color: #f5f824;
+  /* height: 150px; */
+  /* line-height: 150px; */
+  margin: 0;
+  /* padding: 0; */
+}
+
+#footer h4 {
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+p {
+  line-height: 1.5;
+}
+
+#footer p {
+  color: rgb(0, 0, 0);
+}
+
+.column {
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 20px;
+}
+
+.container {
+  /* max-width:100%; */
+  /* max-width: 1000px; */
+  margin: 0 auto;
+}
+
+#about {
+  float: right;
+}
+
+#theme1 {
+  color: #050505;
+  font-family: BlenderProBold, sans-serif;
+  text-shadow: 5px 5px 5px #16c716;
+  font-weight: 700;
+  letter-spacing: -0.0075em;
+  background-color: #fdfa2f;
+  border: 2px solid #01ca01;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  border-radius: 8px;
+}
+
+#theme1:hover {
+  background-color: #000000;
+  color: rgb(253, 251, 251);
+}
+
+#theme2 {
+  color: #050505;
+  font-family: BlenderProBold, sans-serif;
+  text-shadow: 5px 5px 5px #16c716;
+  font-weight: 700;
+  letter-spacing: -0.0075em;
+  background-color: #fdfa2f;
+  border: 2px solid #01ca01;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  border-radius: 8px;
+}
+
+#theme2:hover {
+  background-color: #000000;
+  color: rgb(253, 251, 251);
+}
